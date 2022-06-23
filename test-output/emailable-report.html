@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite_Runner</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">20</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">100,127</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite_Runner</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ap.qa.testcases.LoginPageTest</td><td><a href="#m0">topImageResponsiveTest</a></td><td rowspan="1">1650660550738</td><td rowspan="1">302</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.ap.qa.testcases.AccountPageTest</td><td><a href="#m1">AccountPageLinkTest</a></td><td rowspan="1">1650660609614</td><td rowspan="1">25</td></tr><tr class="passedeven"><td><a href="#m2">accountPageTitleTest</a></td><td rowspan="1">1650660604516</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m3">clickOnWomenHeaderLinkTest</a></td><td rowspan="1">1650660614211</td><td rowspan="1">1360</td></tr><tr class="passedodd"><td rowspan="14">com.ap.qa.testcases.LoginPageTest</td><td><a href="#m4">cartTest</a></td><td rowspan="1">1650660572100</td><td rowspan="1">32</td></tr><tr class="passedodd"><td><a href="#m5">contactUsTest</a></td><td rowspan="1">1650660557520</td><td rowspan="1">43</td></tr><tr class="passedodd"><td><a href="#m6">createAnAccountTest</a></td><td rowspan="1">1650660585953</td><td rowspan="1">35</td></tr><tr class="passedodd"><td><a href="#m7">emailCreateTest</a></td><td rowspan="1">1650660582680</td><td rowspan="1">34</td></tr><tr class="passedodd"><td><a href="#m8">footerSectionTest</a></td><td rowspan="1">1650660592583</td><td rowspan="1">31</td></tr><tr class="passedodd"><td><a href="#m9">forgotYourPasswordTest</a></td><td rowspan="1">1650660589211</td><td rowspan="1">29</td></tr><tr class="passedodd"><td><a href="#m10">headerTest</a></td><td rowspan="1">1650660579390</td><td rowspan="1">36</td></tr><tr class="passedodd"><td><a href="#m11">homeTest</a></td><td rowspan="1">1650660575610</td><td rowspan="1">34</td></tr><tr class="passedodd"><td><a href="#m12">login</a></td><td rowspan="1">1650660595887</td><td rowspan="1">3050</td></tr><tr class="passedodd"><td><a href="#m13">loginPageTitle</a></td><td rowspan="1">1650660547428</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m14">searchBarTest</a></td><td rowspan="1">1650660567817</td><td rowspan="1">33</td></tr><tr class="passedodd"><td><a href="#m15">shopLogoTest</a></td><td rowspan="1">1650660564550</td><td rowspan="1">34</td></tr><tr class="passedodd"><td><a href="#m16">shopPhNoTest</a></td><td rowspan="1">1650660554196</td><td rowspan="1">58</td></tr><tr class="passedodd"><td><a href="#m17">signInTopBtnTest</a></td><td rowspan="1">1650660561151</td><td rowspan="1">37</td></tr><tr class="passedeven"><td rowspan="3">com.ap.qa.testcases.WomenPageTest</td><td><a href="#m18">getCategoryList</a></td><td rowspan="1">1650660642639</td><td rowspan="1">158</td></tr><tr class="passedeven"><td><a href="#m19">womenPageBannerTest</a></td><td rowspan="1">1650660635838</td><td rowspan="1">31</td></tr><tr class="passedeven"><td><a href="#m20">womenPageLinkTest</a></td><td rowspan="1">1650660624415</td><td rowspan="1">5</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.ap.qa.testcases.LoginPageTest#topImageResponsiveTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[@class=&apos;img-responsive&apos;]/ because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//img[@class=&apos;img-responsive&apos;]/&apos; is not a valid XPath expression.
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;DESKTOP-CH574A2&apos;, ip: &apos;192.168.2.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [066817e3f960989d005d775dcea2843d, findElement {using=xpath, value=//img[@class=&apos;img-responsive&apos;]/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\12896\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53405/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 066817e3f960989d005d775dcea2843d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:115)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:204)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at com.ap.qa.pages.LoginPage.topImageResponsive(LoginPage.java:71)
+	at com.ap.qa.testcases.LoginPageTest.topImageResponsiveTest(LoginPageTest.java:37)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ap.qa.testcases.AccountPageTest#AccountPageLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ap.qa.testcases.AccountPageTest#accountPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ap.qa.testcases.AccountPageTest#clickOnWomenHeaderLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ap.qa.testcases.LoginPageTest#cartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.ap.qa.testcases.LoginPageTest#contactUsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.ap.qa.testcases.LoginPageTest#createAnAccountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ap.qa.testcases.LoginPageTest#emailCreateTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ap.qa.testcases.LoginPageTest#footerSectionTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.ap.qa.testcases.LoginPageTest#forgotYourPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.ap.qa.testcases.LoginPageTest#headerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.ap.qa.testcases.LoginPageTest#homeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.ap.qa.testcases.LoginPageTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.ap.qa.testcases.LoginPageTest#loginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.ap.qa.testcases.LoginPageTest#searchBarTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.ap.qa.testcases.LoginPageTest#shopLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.ap.qa.testcases.LoginPageTest#shopPhNoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.ap.qa.testcases.LoginPageTest#signInTopBtnTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.ap.qa.testcases.WomenPageTest#getCategoryList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.ap.qa.testcases.WomenPageTest#womenPageBannerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.ap.qa.testcases.WomenPageTest#womenPageLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
